@@ -3,7 +3,7 @@ import Post from '../components/Post'
 import {getAllPostsData} from '../lib/posts';
 
 const Blog = ({posts}) => {
-  console.log(posts)
+  
   return (
     <Layout title="Contact">
       <ul className="m-10">
