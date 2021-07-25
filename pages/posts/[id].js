@@ -8,6 +8,8 @@ const Post = ({post}) => {
   if(!post){
     return (<div>Loading...</div>);
   }
+
+  console.log(post)
   return (
     <Layout title={post.title}>
       <p className="m-4">
